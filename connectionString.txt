@@ -1,1 +1,1 @@
-mssql+pyodbc://<user>:<password>@<dnsname>
+mssql+pyodbc://dev:1234@testImportExcel

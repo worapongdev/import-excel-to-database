@@ -1,0 +1,23 @@
+Software Requiremtn
+1. python
+2. pip
+3. install requirement.txt (ใช้คำสั่ง pip install -r requirements.txt)
+4. ODBC
+
+การกำหนดค่า
+ 1. ODBC
+ 2. connectionString.txt
+ 3. storedProcedure.txt
+ 4. fileDirPath.txt  Path ที่เก็บไฟล์ Excel
+
+ไฟล์ Excel ที่ต้องการ Import
+ 1. copy ไฟล์ไว้ที่ Folder Files
+ 2. โปรแกรมอ่านไฟล์และเรียงตามชื่อไฟล์จากน้อยไปมาก
+ 3. โปรแกรมอ่าน Sheet ในไฟล์ Excel และอัพโหลดข้อมูลเข้าตารางตามชื่อ Sheet ทีตรงกัน
+
+การใช้งาน
+ 1. เปิด command และเข้าไปที่ path ของโปรแกรม import-excel-to-database
+ 2.พิมพ์  python main.py
+
+การสร้างรวมไฟล์
+pyinstaller --hidden-import pyodbc -F  main.py
